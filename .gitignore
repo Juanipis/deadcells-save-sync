@@ -1,0 +1,27 @@
+# Never commit real saves or backups — they contain personal data
+*.dat
+*.sav
+*.db
+*.binarycookies
+backups/
+extracted/
+work/
+Backup/
+*.mobilebackup*
+Manifest.plist
+Manifest.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
